@@ -1,0 +1,66 @@
+{
+  "PatientID": 50172351,
+  "PatientInfo": {
+    "PatientID": 50172351,
+    "RegistrationDate": "20/12/2011",
+    "FirstName": "Yusuf",
+    "MiddleName": "Abdullah",
+    "LastName": "Abdullah",
+    "Gender": 1,
+    "DateofBirth": "20/12/1967 14:43",
+    "NationalityID": "SAU",
+    "FirstVisit": "20/12/2011 14:44",
+    "LastVisit": "25/06/2018 17:17",
+    "NoOfVisit": 19,
+    "MobileNumber": 555333541,
+    "EmailAddress": "yusuf@mail.com",
+    "IsPregnant": 0,
+    "BloodGroup": 0,
+    "RHFactor": " ",
+    "RegisteredDoctor": 9802,
+    "EmergencyContactName": "NAWAL",
+    "EmergencyContactNo": 555333542
+  },
+  "VitalSigns": [
+    {
+      "PatientID": 50172351,
+      "WeightKg": 100.0,
+      "HeightCm": 167.0,
+      "BodyMassIndex": 0.0,
+      "TemperatureCelcius": 36.9,
+      "PulseBeatPerMinute": 86,
+      "RespirationBeatPerMinute": 20,
+      "BloodPressureLower": 83,
+      "BloodPressureHigher": 190,
+      "SAO2": 99,
+      "FIO2": 0.0,
+      "PainScore": 0.0,
+      "TriageCategory": 0,
+      "GCScore": 0.0,
+      "CreatedOn": "2017-07-18 17:59:00"
+    }
+  ],
+  "Appointments": [
+    {
+      "AppointmentNo": 14516303,
+      "AppointmentDate": "2018-07-02",
+      "PatientID": 50172351,
+      "ClinicID": 8,
+      "DoctorID": 163154,
+      "StartTime": "2025-06-24 17:16:00",
+      "EndTime": "2025-06-24 17:21:00",
+      "VisitType": 3,
+      "VisitFor": 10
+    }
+  ],
+  "DoctorOrders": [
+    {
+      "PatientID": 50172351,
+      "ActualOrderDate": "2017-08-07",
+      "ActualOrderTime": "16:23",
+      "OrderNotes": "send patient home",
+      "NursingNotes": "1620H - Discharged in good condition, vitally stable and no complaints. Left the unit ambulatory with his son. "
+    }
+  ],
+  "Summary": "This patient, Yusuf Abdullah Abdullah (Patient ID: 50172351), born on December 20, 1967, is a male of Saudi Arabian nationality. He registered on December 20, 2011, and had his first visit on the same day. His last visit was on June 25, 2018, having accumulated 19 visits. His mobile number is 555333541 and his email address is yusuf@mail.com. His emergency contact is NAWAL, reachable at 555333542. The registered doctor for this patient is 9802. His blood group is O, and his RH Factor is not specified.\n\nLatest vital signs recorded on July 18, 2017, at 17:59:00 include: Weight: 100.0 kg, Height: 167.0 cm, Body Mass Index: 0.0, Temperature: 36.9 Celcius, Pulse: 86 beats per minute, Respiration: 20 beats per minute, Blood Pressure: 190/83, SAO2: 99, FIO2: 0.0, Pain Score: 0.0, Triage Category: 0, and GC Score: 0.0.\n\nAn upcoming appointment (Appointment No: 14516303) is scheduled for June 24, 2025, from 17:16:00 to 17:21:00 at Clinic ID 8 with Doctor ID 163154. This visit is of type 3 and is for purpose 10.\n\nThe latest doctor's order, dated August 7, 2017, at 16:23, states 'send patient home'. Nursing notes from 16:20 on the same day indicate the patient was 'Discharged in good condition, vitally stable and no complaints. Left the unit ambulatory with his son.'"
+}
