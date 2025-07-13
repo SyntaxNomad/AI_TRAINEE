@@ -1,0 +1,783 @@
+[
+  {
+    "PatientID": 2677554,
+    "PatientInfo": {
+      "RegistrationDate": "30/10/2017",
+      "FirstName": "Yusuf",
+      "MiddleName": "Abdullah",
+      "LastName": "Mubarak",
+      "Gender": 1,
+      "DateofBirth": "30/10/1963 0:00",
+      "NationalityID": "SAU",
+      "FirstVisit": "30/10/2017 9:42",
+      "LastVisit": "1/8/2019 13:05",
+      "NoOfVisit": 189,
+      "MobileNumber": 555333541,
+      "EmailAddress": "yusuf@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 4,
+      "RHFactor": "1",
+      "RegisteredDoctor": 152141,
+      "EmergencyContactName": "AHMAD",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "PatientID": 2677554,
+        "WeightKg": 103.0,
+        "HeightCm": 176.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 0.0,
+        "PulseBeatPerMinute": 85,
+        "RespirationBeatPerMinute": 18,
+        "BloodPressureLower": 103,
+        "BloodPressureHigher": 187,
+        "SAO2": 98,
+        "FIO2": 0.0,
+        "PainScore": 0.0,
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2018-05-16 14:09:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 17107657,
+        "AppointmentDate": "2019-08-04",
+        "PatientID": 2677554,
+        "ClinicID": 50,
+        "DoctorID": 149425,
+        "StartTime": "2025-06-24 13:00:00",
+        "EndTime": "2025-06-24 13:15:00",
+        "VisitType": 3,
+        "VisitFor": 10
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "PatientID": 2677554,
+        "ActualOrderDate": "2019-08-01",
+        "ActualOrderTime": "15:",
+        "OrderNotes": "time: 4 hours, ultrafiltration according to weight gain,  heparin: 3500 units IV bolus",
+        "NursingNotes": "1250H -Hemodialysis started after patient re-identification -Gross Ultrafiltration: 4L as tolerated -Time Set: 4  hours duration -Anticoagulant: hibor 3500 units given via arterial port; independent double check done by RN  Hind "
+      }
+    ],
+    "Summary": "Patient Yusuf Abdullah Mubarak (Patient ID: 2677554), a male Saudi Arabian national born on October 30, 1963, was registered on October 30, 2017. He has made 189 visits, with his first visit on October 30, 2017, at 9:42 AM and his most recent visit on August 1, 2019, at 1:05 PM. His mobile number is 555333541 and his email address is yusuf@mail.com. His blood group is 4 with RH factor 1. His primary registered doctor is 152141. An emergency contact, AHMAD, can be reached at 555333542.\n\nOn May 16, 2018, vital signs were recorded as follows: Weight 103.0 kg, Height 176.0 cm, Body Mass Index 0.0, Temperature 0.0 Celcius, Pulse 85 beats per minute, Respiration 18 beats per minute, Blood Pressure 187/103, SAO2 98, FIO2 0.0, Pain Score 0.0, Triage Category 0, and GC Score 0.0.\n\nAn appointment (No: 17107657) is noted for August 4, 2019, scheduled with Doctor ID 149425 at Clinic ID 50, with a specific time slot from 1:00 PM to 1:15 PM on June 24, 2025. This is for Visit Type 3 and Visit For 10.\n\nOn August 1, 2019, doctor's orders were recorded at 15:. The order notes specify \"time: 4 hours, ultrafiltration according to weight gain, heparin: 3500 units IV bolus\". Corresponding nursing notes from 1250H indicate that hemodialysis was started after patient re-identification, with a gross ultrafiltration of 4L as tolerated, a time set for 4 hours duration, and anticoagulant (hibor 3500 units) administered via arterial port, with an independent double check performed by RN Hind."
+  },
+  {
+    "PatientID": 1910035,
+    "PatientInfo": {
+      "RegistrationDate": "19/10/2017",
+      "FirstName": "Ahmed",
+      "MiddleName": "Hassan",
+      "LastName": "Salem",
+      "Gender": 1,
+      "DateofBirth": "19/10/1989 17:04",
+      "NationalityID": "SAU",
+      "FirstVisit": "25/12/2012 1:38",
+      "LastVisit": "28/06/2017 14:10",
+      "NoOfVisit": 0,
+      "MobileNumber": 555333541,
+      "EmailAddress": "ahmed@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 0,
+      "RegisteredDoctor": 0,
+      "EmergencyContactName": "Unknown",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "PatientID": 1910035,
+        "WeightKg": 37.0,
+        "HeightCm": 143.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 36.0,
+        "PulseBeatPerMinute": 93,
+        "RespirationBeatPerMinute": 21,
+        "BloodPressureLower": 74,
+        "BloodPressureHigher": 151,
+        "SAO2": 0,
+        "FIO2": 0.0,
+        "PainScore": 2.0,
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2018-11-04 20:08:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 17098895,
+        "AppointmentDate": "2019-08-03",
+        "PatientID": 1910035,
+        "ClinicID": 50,
+        "DoctorID": 149425,
+        "StartTime": "2025-06-24 08:45:00",
+        "EndTime": "2025-06-24 09:00:00",
+        "VisitType": 3,
+        "VisitFor": 10
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "PatientID": 1910035,
+        "ActualOrderDate": "2019-08-03",
+        "ActualOrderTime": "11:30",
+        "OrderNotes": "hemodialysis: 4 hours, ultrafiltration  as tolerated , heparin 2500 units IV bolus ",
+        "NursingNotes": " 0830 H: * Hemodialysis started after patient re identification with UF set to 3.7 L ( UF net:3.4 L +300 ml backwash) for 4 hours . * Hiboor 2500 unit given IV bolus after independent double check by RN Kristy and patient re identification."
+      }
+    ],
+    "Summary": "Patient Ahmed Hassan Salem, Patient ID 1910035, is a male born on October 19, 1989, and holds Saudi Arabian nationality. He was registered on October 19, 2017. His first recorded visit was on December 25, 2012, and his last visit was on June 28, 2017. The recorded number of visits is 0. His mobile number is 555333541 and email address is ahmed@mail.com. His blood group is listed as 0, and the registered doctor is 0. His emergency contact is \"Unknown\" with the number 555333542.\n\nOn November 4, 2018, his vital signs were recorded as: Weight 37.0 kg, Height 143.0 cm, Body Mass Index 0.0, Temperature 36.0°C, Pulse 93 beats per minute, Respiration 21 beats per minute, and Blood Pressure 151/74. His SAO2 was 0, FIO2 0.0, Pain Score 2.0, Triage Category 0, and GC Score 0.0.\n\nAn appointment (Number 17098895) was recorded on August 3, 2019, and is scheduled for June 24, 2025, from 08:45:00 to 09:00:00, at Clinic ID 50 with Doctor ID 149425. The Visit Type is 3 and Visit For is 10.\n\nDoctor's orders from August 3, 2019, at 11:30, include \"hemodialysis: 4 hours, ultrafiltration as tolerated, heparin 2500 units IV bolus.\" Nursing notes from 08:30 on the same date state: \"Hemodialysis started after patient re identification with UF set to 3.7 L (UF net:3.4 L +300 ml backwash) for 4 hours. Hiboor 2500 unit given IV bolus after independent double check by RN Kristy and patient re identification.\""
+  },
+  {
+    "PatientID": 2573089,
+    "PatientInfo": {
+      "RegistrationDate": "14/05/2017",
+      "FirstName": "Faisal",
+      "MiddleName": "Hassan",
+      "LastName": "Abdullah",
+      "Gender": 1,
+      "DateofBirth": "13/05/1985 0:00",
+      "NationalityID": "SAU",
+      "FirstVisit": "14/05/2017 18:01",
+      "LastVisit": "7/5/2019 20:48",
+      "NoOfVisit": 8,
+      "MobileNumber": 555333541,
+      "EmailAddress": "faisal@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 0,
+      "RHFactor": " ",
+      "RegisteredDoctor": 103127,
+      "EmergencyContactName": "FAHAD",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "PatientID": 2573089,
+        "WeightKg": 74.0,
+        "HeightCm": 178.0,
+        "BodyMassIndex": 23.36,
+        "TemperatureCelcius": 36.0,
+        "PulseBeatPerMinute": 83,
+        "RespirationBeatPerMinute": 18,
+        "BloodPressureLower": 93,
+        "BloodPressureHigher": 208,
+        "SAO2": 99,
+        "FIO2": 0.0,
+        "TriageCategory": 0,
+        "CreatedOn": "2018-04-11 09:47:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 16592340,
+        "AppointmentDate": "2019-10-15",
+        "PatientID": 2573089,
+        "ClinicID": 17,
+        "DoctorID": 218175,
+        "StartTime": "2025-06-24 14:00:00",
+        "EndTime": "2025-06-24 15:00:00",
+        "VisitType": 5,
+        "VisitFor": 17
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "PatientID": 2573089,
+        "ActualOrderDate": "2018-07-24",
+        "ActualOrderTime": "11:55",
+        "OrderNotes": "hemodialysis session 4 hrs, net UF 4L, K 2, heparin 1000 un",
+        "NursingNotes": "0930H - Hemodialysis treatment started after patient re- identification with Ultrafiltration goal set to 4 L  for 4 hours duration with loading dose of Heparin 1000 international unit given after patient re identification and independent double checking with RN Marny."
+      }
+    ],
+    "Summary": "Patient Faisal Hassan Abdullah, ID 2573089, is a Saudi male born on May 13, 1985, making him 39 years old. His mobile number is 555333541 and his email address is faisal@mail.com. For emergencies, his contact is FAHAD at 555333542. His blood group is 0 and RH factor is ' '.\n\nHe registered on May 14, 2017, with his first visit on the same day at 18:01. His last visit was on May 7, 2019, at 20:48, accumulating 8 visits. His registered doctor has an ID of 103127.\n\nOn April 11, 2018, his vital signs were recorded as: Weight 74.0 kg, Height 178.0 cm, Body Mass Index (BMI) 23.36, Temperature 36.0 Celcius, Pulse 83 beats per minute, Respiration 18 beats per minute, Blood Pressure 208/93 mmHg, SAO2 99, FIO2 0.0, and Triage Category 0.\n\nA doctor's order from July 24, 2018, at 11:55, details a hemodialysis session for 4 hours with a net ultrafiltration of 4L, potassium (K) 2, and 1000 units of heparin. Nursing notes for this session confirm the start of the hemodialysis at 09:30H, with the ultrafiltration goal set and 1000 international units of Heparin administered.\n\nAn appointment (No: 16592340) was scheduled on October 15, 2019, for a future visit on June 24, 2025, from 14:00 to 15:00. This appointment is at Clinic ID 17 with Doctor ID 218175, designated as Visit Type 5 and Visit For 17."
+  },
+  {
+    "PatientID": 2420011,
+    "PatientInfo": {
+      "RegistrationDate": "13/10/2016",
+      "FirstName": "Khalid",
+      "MiddleName": "Salem",
+      "LastName": "Salem",
+      "Gender": 1,
+      "DateofBirth": "13/10/1954 0:00",
+      "NationalityID": "YEM",
+      "FirstVisit": "13/10/2016 16:48",
+      "LastVisit": "3/8/2019 7:33",
+      "NoOfVisit": 302,
+      "MobileNumber": 555333541,
+      "EmailAddress": "khalid@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 2,
+      "RHFactor": "1",
+      "RegisteredDoctor": 139949,
+      "EmergencyContactName": "ABDULLAH",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "PatientID": 2420011,
+        "WeightKg": 55.0,
+        "HeightCm": 175.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 37.8,
+        "PulseBeatPerMinute": 84,
+        "RespirationBeatPerMinute": 24,
+        "BloodPressureLower": 79,
+        "BloodPressureHigher": 138,
+        "SAO2": 98,
+        "FIO2": 0.0,
+        "PainScore": 0.0,
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2017-10-01 23:39:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 17110601,
+        "AppointmentDate": "2019-08-05",
+        "PatientID": 2420011,
+        "ClinicID": 50,
+        "DoctorID": 149425,
+        "StartTime": "2025-06-24 08:45:00",
+        "EndTime": "2025-06-24 09:00:00",
+        "VisitType": 3,
+        "VisitFor": 10
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "PatientID": 2420011,
+        "ActualOrderDate": "2019-08-03",
+        "ActualOrderTime": "11:23",
+        "OrderNotes": "time: 4 hours, Ultrafiltration according to weight gain, heparin 1000 units IV bolus",
+        "NursingNotes": "0800H - Hemodialysis treatment started  after patient re- identification with Ultrafiltration goal set to 3 Liters gross as tolerated for 4  hours duration as per Droctor's order.. - No episodes of bleeding as patient verbalized, Heparin 1000iu given after patient identification and independent double checked by RN Kristy."
+      }
+    ],
+    "Summary": "Patient Khalid Salem Salem, ID 2420011, is a male born on October 13, 1954, with YEM nationality. He was registered on October 13, 2016, and has made 302 visits to date, with his first visit on October 13, 2016, at 16:48 and his last visit on August 3, 2019, at 7:33. His mobile number is 555333541 and email is khalid@mail.com. His blood group is 2 with a Positive RH factor. His registered doctor is 139949. His emergency contact is ABDULLAH at 555333542.\n\nAs of October 1, 2017, at 23:39, his vital signs were: Weight 55.0 kg, Height 175.0 cm, Body Mass Index 0.0, Temperature 37.8 Celcius, Pulse 84 beats per minute, Respiration 24 beats per minute, Blood Pressure 138/79, Oxygen Saturation (SAO2) 98, Fraction of Inspired Oxygen (FIO2) 0.0, Pain Score 0.0, Triage Category 0, and GC Score 0.0.\n\nHe has an upcoming appointment (Appointment No. 17110601) scheduled for August 5, 2019, at Clinic 50 with Doctor 149425. This appointment is for a visit type 3, intended for visit for 10, and is scheduled from June 24, 2025, 08:45:00 to June 24, 2025, 09:00:00.\n\nOn August 3, 2019, at 11:23, doctor's orders included 4 hours of Ultrafiltration according to weight gain and 1000 units IV bolus of heparin. Nursing notes confirm hemodialysis treatment started at 0800H after patient re-identification, with an Ultrafiltration goal set to 3 Liters gross as tolerated for 4 hours duration as per doctor's order. The patient verbalized no episodes of bleeding, and 1000iu Heparin was given after patient identification and independent double check by RN Kristy."
+  },
+  {
+    "PatientID": 2339688,
+    "PatientInfo": {
+      "RegistrationDate": "13/06/2016",
+      "FirstName": "Sara",
+      "MiddleName": "Mubarak",
+      "LastName": "Mubarak",
+      "Gender": 2,
+      "DateofBirth": "11/6/1987 0:00",
+      "NationalityID": "SAU",
+      "FirstVisit": "13/06/2016 22:19",
+      "LastVisit": "27/06/2019 10:55",
+      "NoOfVisit": 397,
+      "MobileNumber": 555333541,
+      "EmailAddress": "sara@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 0,
+      "RHFactor": " ",
+      "RegisteredDoctor": 140338,
+      "EmergencyContactName": "TURKI",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "PatientID": 2339688,
+        "WeightKg": 69.0,
+        "HeightCm": 169.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 37.0,
+        "PulseBeatPerMinute": 64,
+        "RespirationBeatPerMinute": 21,
+        "BloodPressureLower": 83,
+        "BloodPressureHigher": 176,
+        "SAO2": 100,
+        "FIO2": 0.0,
+        "PainScore": 2.0,
+        "PainLocation": "chest",
+        "PainDuration": "today",
+        "PainCharacter": "aching",
+        "PainFrequency": "continuous",
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2017-02-28 12:33:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 16841540,
+        "AppointmentDate": "2019-07-03",
+        "PatientID": 2339688,
+        "ClinicID": 27,
+        "DoctorID": 203170,
+        "StartTime": "2025-06-24 18:00:00",
+        "EndTime": "2025-06-24 18:15:00",
+        "VisitType": 1,
+        "VisitFor": 10
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "PatientID": 2339688,
+        "ActualOrderDate": "2019-06-27",
+        "ActualOrderTime": "12:34",
+        "OrderNotes": "hemodialysis session: 3:30 hours, ultrafilteration according to weight gain, K: 2, heparin 2500units IV bolus",
+        "NursingNotes": "1135H * Hemodialysis treatment started after patient re identification. Parameters set to the machine. * Hibor 2500 units given IV bolus thru venous port after patient re identification and independent double checked by RN Kristy "
+      }
+    ],
+    "Summary": "Patient Sara Mubarak Mubarak (ID: 2339688), born on November 6, 1987, is a Saudi Arabian female. She registered on June 13, 2016, and has had 397 visits, with her first visit on June 13, 2016, and her last on June 27, 2019. Her contact details are mobile number 555333541 and email sara@mail.com. She is not pregnant. Her blood group is 0, and her RH factor is not specified. Her registered doctor is 140338. Her emergency contact is TURKI, reachable at 555333542.\n\nHer vital signs recorded on February 28, 2017, were: weight 69.0 kg, height 169.0 cm, Body Mass Index 0.0, temperature 37.0 °C, pulse 64 beats per minute, respiration 21 beats per minute, and blood pressure 176/83 mmHg. Her SAO2 was 100%, and FIO2 was 0.0. She reported a pain score of 2.0 for aching, continuous chest pain that started \"today\". Her Triage Category was 0, and GC Score was 0.0.\n\nAn appointment (No: 16841540) is recorded with an appointment date of July 3, 2019, for a visit scheduled to start on June 24, 2025, at 18:00 and end at 18:15. This appointment is with Doctor ID 203170 at Clinic ID 27, noted as Visit Type 1 for Visit For 10.\n\nOn June 27, 2019, at 12:34, doctor's orders included a hemodialysis session for 3 hours and 30 minutes, ultrafiltration according to weight gain, K: 2, and heparin 2500 units IV bolus. Nursing notes from 11:35H on the same day detail the initiation of hemodialysis treatment after patient re-identification, with parameters set and Hibor 2500 units administered IV bolus through the venous port, independently double-checked by RN Kristy."
+  },
+  {
+    "PatientID": 2116903,
+    "PatientInfo": {
+      "RegistrationDate": "24/08/2015",
+      "FirstName": "Yusuf",
+      "MiddleName": "Abdullah",
+      "LastName": "Salem",
+      "Gender": 1,
+      "DateofBirth": "20/11/1960 17:33",
+      "NationalityID": "SAU",
+      "FirstVisit": "24/08/2015 14:12",
+      "LastVisit": "12/2/2018 20:01",
+      "NoOfVisit": 40,
+      "MobileNumber": 555333541,
+      "EmailAddress": "yusuf@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 4,
+      "RHFactor": "2",
+      "RegisteredDoctor": 11270,
+      "EmergencyContactName": "WAIF",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "PatientID": 2116903,
+        "WeightKg": 110.0,
+        "HeightCm": 170.0,
+        "BodyMassIndex": 38.06,
+        "TemperatureCelcius": 36.0,
+        "PulseBeatPerMinute": 65,
+        "RespirationBeatPerMinute": 22,
+        "BloodPressureLower": 96,
+        "BloodPressureHigher": 186,
+        "SAO2": 98,
+        "FIO2": 21.0,
+        "TriageCategory": 0,
+        "CreatedOn": "2016-10-30 00:21:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 16435597,
+        "AppointmentDate": "2019-04-14",
+        "PatientID": 2116903,
+        "ClinicID": 6,
+        "DoctorID": 152542,
+        "StartTime": "2025-06-24 21:30:00",
+        "EndTime": "2025-06-24 21:45:00",
+        "VisitType": 1,
+        "VisitFor": 10
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "PatientID": 2116903,
+        "ActualOrderDate": "2017-06-06",
+        "ActualOrderTime": "16:19",
+        "OrderNotes": "dialysis order: duration: 4 hours Ultrafiltration: 4 L total as tolerated K: 2 Bicarb: 3 Na: 14.0 Dialyzer: 18 Heparin: 1000 units IV bolus",
+        "NursingNotes": "1238H -Hemodialysis treatment started after patient re- identification with Ultrafiltration Total of goal set to 4.0 Liters  included backwash and Intake for 4  hours - Heparin sodium 1000 unit/mL given to patient after reidentification and double check with RN Jessica"
+      }
+    ],
+    "Summary": "Patient Yusuf Abdullah Salem, ID 2116903, was born on November 20, 1960. He is a male with Saudi Arabian nationality. He registered on August 24, 2015. His first visit occurred on August 24, 2015, at 14:12, and his last visit was recorded on February 12, 2018, at 20:01. He has made a total of 40 visits. His mobile number is 555333541 and his email address is yusuf@mail.com. His registered doctor is ID 11270. His emergency contact is WAIF at 555333542. His blood group is type 4 with an Rh factor of 2.\n\nOn October 30, 2016, his vital signs were recorded as follows: Weight 110.0 kg, Height 170.0 cm, and Body Mass Index (BMI) 38.06. His temperature was 36.0°C, pulse 65 beats per minute, and respiration rate 22 beats per minute. Blood pressure was 186/96 mmHg. His oxygen saturation (SAO2) was 98% with a Fraction of Inspired Oxygen (FIO2) of 21.0%. His triage category was 0.\n\nOn June 6, 2017, a doctor's order was placed for dialysis, specifying a duration of 4 hours with an Ultrafiltration goal of 4 Liters total as tolerated. The order also detailed K: 2, Bicarb: 3, Na: 14.0, Dialyzer: 18, and Heparin: 1000 units IV bolus. Nursing notes from the same day at 1238H indicate that hemodialysis treatment commenced after patient re-identification, with the Ultrafiltration goal set to 4.0 Liters, including backwash and intake for 4 hours. Heparin sodium 1000 unit/mL was administered to the patient after re-identification and double-checking with RN Jessica.\n\nHe has an upcoming appointment (Appointment No. 16435597) scheduled for June 24, 2025, from 21:30 to 21:45, at Clinic ID 6 with Doctor ID 152542. This visit is for Visit Type 1 and Visit For 10."
+  },
+  {
+    "PatientID": 2080108,
+    "PatientInfo": {
+      "RegistrationDate": "4/7/2015",
+      "FirstName": "Noor",
+      "MiddleName": "Nasser",
+      "LastName": "Mubarak",
+      "Gender": 2,
+      "DateofBirth": "4/1/1936 11:29",
+      "NationalityID": "SAU",
+      "FirstVisit": "5/7/2015 12:52",
+      "LastVisit": "1/8/2019 15:32",
+      "NoOfVisit": 168,
+      "MobileNumber": 555333541,
+      "EmailAddress": "noor@mail.com",
+      "IsPregnant": 1,
+      "BloodGroup": 0,
+      "RHFactor": " ",
+      "RegisteredDoctor": 8219,
+      "EmergencyContactName": "RAGAD FOR BILING",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "PatientID": 2080108,
+        "WeightKg": 53.0,
+        "HeightCm": 150.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 36.0,
+        "PulseBeatPerMinute": 83,
+        "RespirationBeatPerMinute": 20,
+        "BloodPressureLower": 69,
+        "BloodPressureHigher": 164,
+        "SAO2": 0,
+        "FIO2": 0.0,
+        "PainScore": 0.0,
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2017-08-30 13:45:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 16951560,
+        "AppointmentDate": "2019-10-10",
+        "PatientID": 2080108,
+        "ClinicID": 17,
+        "DoctorID": 174058,
+        "StartTime": "2025-06-24 15:45:00",
+        "EndTime": "2025-06-24 16:45:00",
+        "VisitType": 5,
+        "VisitFor": 17
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "PatientID": 2080108,
+        "ActualOrderDate": "2019-08-03",
+        "ActualOrderTime": "16:48",
+        "OrderNotes": "time: 3:30 hours ,  ultrafiltration according to dry weight,  hibor 2500 IV bolus",
+        "NursingNotes": "noted after apatient re identifiction done"
+      }
+    ],
+    "Summary": "Patient Noor Nasser Mubarak (ID: 2080108), a Saudi Arabian female born on April 1, 1936, was registered on April 7, 2015. She is currently pregnant. Her blood group is 0, and her RH Factor is ' '. Her mobile number is 555333541 and email address is noor@mail.com. Her emergency contact is RAGAD FOR BILING at 555333542. She has made 168 visits, with her first visit on May 7, 2015, and her last visit on January 8, 2019. Her registered doctor is ID 8219.\n\nOn August 30, 2017, her vital signs were recorded: weight 53.0 kg, height 150.0 cm, and body mass index 0.0. Her temperature was 36.0 Celsius, pulse 83 beats per minute, and respiration 20 beats per minute. Her blood pressure was 164/69 mmHg. SAO2 was 0, FIO2 0.0, Pain Score 0.0, Triage Category 0, and GC Score 0.0.\n\nAn upcoming appointment (No: 16951560) was recorded on October 10, 2019, scheduled for June 24, 2025, from 3:45 PM to 4:45 PM, with Doctor ID 174058 at Clinic ID 17 (Visit Type: 5, Visit For: 17).\n\nDoctor's orders issued on August 3, 2019, at 16:48, included: \"time: 3:30 hours , ultrafiltration according to dry weight, hibor 2500 IV bolus\". Nursing notes for this order state: \"noted after apatient re identifiction done\"."
+  },
+  {
+    "PatientID": 1424125,
+    "PatientInfo": {
+      "RegistrationDate": "22/01/2014",
+      "FirstName": "Faisal",
+      "MiddleName": "Mubarak",
+      "LastName": "Nasser",
+      "Gender": 1,
+      "DateofBirth": "18/01/1962 0:00",
+      "NationalityID": "SDN",
+      "FirstVisit": "8/7/2014 13:43",
+      "LastVisit": "15/04/2019 11:18",
+      "NoOfVisit": 97,
+      "MobileNumber": 555333541,
+      "EmailAddress": "faisal@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 0,
+      "RHFactor": " ",
+      "RegisteredDoctor": 16145,
+      "EmergencyContactName": "SON",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "PatientID": 1424125,
+        "WeightKg": 75.0,
+        "HeightCm": 175.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 37.7,
+        "PulseBeatPerMinute": 118,
+        "RespirationBeatPerMinute": 24,
+        "BloodPressureLower": 94,
+        "BloodPressureHigher": 190,
+        "SAO2": 97,
+        "PainScore": 0.0,
+        "TriageCategory": 2,
+        "GCScore": 15.0,
+        "CreatedOn": "2015-01-22 12:22:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 16672781,
+        "AppointmentDate": "2019-05-21",
+        "PatientID": 1424125,
+        "ClinicID": 50,
+        "DoctorID": 100159,
+        "StartTime": "2025-06-24 07:20:00",
+        "EndTime": "2025-06-24 07:25:00",
+        "VisitType": 3,
+        "VisitFor": 4
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "PatientID": 1424125,
+        "ActualOrderDate": "2019-05-21",
+        "ActualOrderTime": "10:21",
+        "OrderNotes": "Hemodialysis 4  hrs, Ultrafiltration according to dry weight, K 1, innohep 1000 un",
+        "NursingNotes": "Noted and carried out  Therapy time provided 3 hour 40 minutes due to patient started dialysis late .ACN.Laila is aware."
+      }
+    ],
+    "Summary": "Patient ID 1424125 is Faisal Mubarak Nasser, a male born on 18/01/1962, with Sudanese nationality, registered on 22/01/2014. He has made 97 visits, with his first visit on 8/7/2014 and his last on 15/04/2019. His registered doctor is 16145. Contact details include mobile number 555333541 and email faisal@mail.com. His emergency contact is SON, reachable at 555333542. His blood group is 0 and RH Factor is \" \".\n\nVital signs recorded on 2015-01-22 12:22:00 indicate a weight of 75.0 kg, height of 175.0 cm, Body Mass Index of 0.0, temperature of 37.7 Celsius, pulse of 118 beats per minute, respiration of 24 beats per minute, blood pressure of 190/94, SAO2 of 97, pain score of 0.0, Triage Category 2, and a GC Score of 15.0.\n\nAn upcoming appointment, number 16672781, is scheduled for 2025-06-24 from 07:20:00 to 07:25:00 at Clinic ID 50 with Doctor ID 100159. This is noted as Visit Type 3 for Visit For 4, with the appointment date being 2019-05-21.\n\nDoctor's orders from 2019-05-21 at 10:21 included Hemodialysis for 4 hours, Ultrafiltration according to dry weight, K 1, and innohep 1000 units. Nursing notes confirm these orders were carried out, with therapy time provided for 3 hours 40 minutes due to the patient starting dialysis late, and ACN.Laila is aware."
+  },
+  {
+    "PatientID": 1354371,
+    "PatientInfo": {
+      "RegistrationDate": "23/10/2013",
+      "FirstName": "Sara",
+      "MiddleName": "Abdullah",
+      "LastName": "Nasser",
+      "Gender": 2,
+      "DateofBirth": "20/04/1948 0:00",
+      "NationalityID": "SAU",
+      "FirstVisit": "23/10/2013 21:24",
+      "LastVisit": "4/4/2018 13:33",
+      "NoOfVisit": 36,
+      "MobileNumber": 555333541,
+      "EmailAddress": "sara@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 4,
+      "RHFactor": "1",
+      "RegisteredDoctor": 16145,
+      "EmergencyContactName": "DRIVER",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "PatientID": 1354371,
+        "WeightKg": 48.35,
+        "HeightCm": 157.5,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 36.5,
+        "PulseBeatPerMinute": 71,
+        "RespirationBeatPerMinute": 18,
+        "BloodPressureLower": 91,
+        "BloodPressureHigher": 185,
+        "SAO2": 99,
+        "PainScore": 0.0,
+        "TriageCategory": 3,
+        "GCScore": 15.0,
+        "CreatedOn": "2014-08-06 03:17:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 2016067351,
+        "AppointmentDate": "2024-04-28",
+        "PatientID": 1354371,
+        "ClinicID": 1,
+        "DoctorID": 420,
+        "StartTime": "2025-06-24 15:07:00",
+        "EndTime": "2025-06-24 15:12:00",
+        "VisitType": 6,
+        "VisitFor": 10,
+        "Notes": "Walk in Appointment for Inpatient Initial Assessment"
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "PatientID": 1354371,
+        "ActualOrderDate": "2019-08-01",
+        "ActualOrderTime": "14:57",
+        "OrderNotes": "Hemodialysis session: 4 hrs, Ultrafiltration according to weight gain, K 2, heparin free",
+        "NursingNotes": "Noted and done after patient reidentification done."
+      }
+    ],
+    "Summary": "Patient ID 1354371, Sara Abdullah Nasser, is a Saudi female born on April 20, 1948. She registered on October 23, 2013, and has accumulated 36 visits, with her first visit on October 23, 2013, and her last on April 4, 2018. Her mobile number is 555333541 and her email address is sara@mail.com. She is not pregnant and has O positive blood (Blood Group 4, RH Factor 1). Her registered doctor is 16145. Her emergency contact is DRIVER, reachable at 555333542.\n\nOn August 6, 2014, her vital signs were recorded as: Weight 48.35 kg, Height 157.5 cm, Body Mass Index 0.0, Temperature 36.5 °C, Pulse 71 beats per minute, Respiration 18 breaths per minute, Blood Pressure 185/91 mmHg, SAO2 99%, Pain Score 0.0, Triage Category 3, and Glasgow Coma Scale (GCS) Score 15.0.\n\nAn appointment is scheduled for April 28, 2024, at Clinic 1 with Doctor 420, specifically from June 24, 2025, 3:07 PM to 3:12 PM. The notes for this appointment indicate it is a \"Walk in Appointment for Inpatient Initial Assessment.\"\n\nOn August 1, 2019, at 2:57 PM, a doctor's order was placed for \"Hemodialysis session: 4 hrs, Ultrafiltration according to weight gain, K 2, heparin free.\" Nursing notes indicate that this order was \"Noted and done after patient reidentification done.\""
+  },
+  {
+    "PatientID": 1144414,
+    "PatientInfo": {
+      "RegistrationDate": "25/12/2012",
+      "FirstName": "Noor",
+      "MiddleName": "Abdullah",
+      "LastName": "Salem",
+      "Gender": 2,
+      "DateofBirth": "25/12/1969 0:00",
+      "NationalityID": "EGY",
+      "FirstVisit": "25/12/2012 1:38",
+      "LastVisit": "28/06/2017 14:10",
+      "NoOfVisit": 61,
+      "MobileNumber": 555333541,
+      "EmailAddress": "noor@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 1,
+      "RHFactor": "2",
+      "RegisteredDoctor": 11270,
+      "EmergencyContactName": "KALAD",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "PatientID": 1144414,
+        "WeightKg": 1.0,
+        "HeightCm": 1.0,
+        "BodyMassIndex": 10000.0,
+        "TemperatureCelcius": 39.3,
+        "PulseBeatPerMinute": 78,
+        "RespirationBeatPerMinute": 23,
+        "BloodPressureLower": 60,
+        "BloodPressureHigher": 120,
+        "SAO2": 90,
+        "FIO2": 0.0,
+        "PainScore": 5.0,
+        "TriageCategory": 0,
+        "CreatedOn": "2017-05-04 01:39:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 12177428,
+        "AppointmentDate": "2017-06-28",
+        "PatientID": 1144414,
+        "ClinicID": 50,
+        "DoctorID": 134050,
+        "StartTime": "2025-06-24 13:30:00",
+        "EndTime": "2025-06-24 13:45:00",
+        "VisitType": 3,
+        "VisitFor": 10
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "PatientID": 1144414,
+        "ActualOrderDate": "2017-06-28",
+        "ActualOrderTime": "16:39",
+        "OrderNotes": "send patient home",
+        "NursingNotes": "Carried out: * Discharged patient from the unit after re identification at 0130 H * Patient left the unit per wheelchair accompanied by her son in stable condition."
+      }
+    ],
+    "Summary": "Noor Abdullah Salem, Patient ID 1144414, is a female born on December 25, 1969, and holds Egyptian nationality. She registered on December 25, 2012, with her first visit occurring on the same day at 1:38, and her last recorded visit on June 28, 2017, at 14:10, accumulating 61 visits. Her contact details include mobile number 555333541 and email noor@mail.com. She is not pregnant and has Blood Group 1 with an RH Factor of 2. Her registered doctor is ID 11270, and her emergency contact is KALAD at 555333542.\n\nOn May 4, 2017, at 01:39, her vital signs were recorded as follows: Weight 1.0 kg, Height 1.0 cm, Body Mass Index 10000.0, Temperature 39.3 Celcius, Pulse 78 beats per minute, Respiration 23 beats per minute, Blood Pressure 120/60, SAO2 90, FIO2 0.0, Pain Score 5.0, and Triage Category 0.\n\nAn appointment record for June 28, 2017, indicates a scheduled start time of 13:30 on June 24, 2025, and an end time of 13:45 on June 24, 2025. This appointment is with Clinic ID 50 and Doctor ID 134050, designated as Visit Type 3 for Visit For 10.\n\nOn June 28, 2017, at 16:39, doctor's orders were to 'send patient home'. Nursing notes detail that the patient was discharged from the unit after re-identification at 01:30 H and left per wheelchair accompanied by her son in stable condition."
+  },
+  {
+    "PatientID": 50172351,
+    "PatientInfo": {
+      "RegistrationDate": "20/12/2011",
+      "FirstName": "Yusuf",
+      "MiddleName": "Abdullah",
+      "LastName": "Abdullah",
+      "Gender": 1,
+      "DateofBirth": "20/12/1967 14:43",
+      "NationalityID": "SAU",
+      "FirstVisit": "20/12/2011 14:44",
+      "LastVisit": "25/06/2018 17:17",
+      "NoOfVisit": 19,
+      "MobileNumber": 555333541,
+      "EmailAddress": "yusuf@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 0,
+      "RHFactor": " ",
+      "RegisteredDoctor": 9802,
+      "EmergencyContactName": "NAWAL",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "PatientID": 50172351,
+        "WeightKg": 100.0,
+        "HeightCm": 167.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 36.9,
+        "PulseBeatPerMinute": 86,
+        "RespirationBeatPerMinute": 20,
+        "BloodPressureLower": 83,
+        "BloodPressureHigher": 190,
+        "SAO2": 99,
+        "FIO2": 0.0,
+        "PainScore": 0.0,
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2017-07-18 17:59:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 14516303,
+        "AppointmentDate": "2018-07-02",
+        "PatientID": 50172351,
+        "ClinicID": 8,
+        "DoctorID": 163154,
+        "StartTime": "2025-06-24 17:16:00",
+        "EndTime": "2025-06-24 17:21:00",
+        "VisitType": 3,
+        "VisitFor": 10
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "PatientID": 50172351,
+        "ActualOrderDate": "2017-08-07",
+        "ActualOrderTime": "16:23",
+        "OrderNotes": "send patient home",
+        "NursingNotes": "1620H - Discharged in good condition, vitally stable and no complaints. Left the unit ambulatory with his son. "
+      }
+    ],
+    "Summary": "Patient Yusuf Abdullah Abdullah, ID 50172351, born on December 20, 1967, is a male Saudi Arabian national. He registered on December 20, 2011, with his first visit on the same day and last visit on June 25, 2018, accumulating 19 visits. His mobile number is 555333541 and email is yusuf@mail.com. His registered doctor is 9802. Emergency contact is NAWAL at 555333542. His blood group is 0 and RH factor is ' '.\n\nOn July 18, 2017, his vital signs were recorded as: Weight 100.0 kg, Height 167.0 cm, Body Mass Index 0.0, Temperature 36.9 °C, Pulse 86 bpm, Respiration 20 bpm, Blood Pressure 190/83 mmHg, SAO2 99%, FIO2 0.0, Pain Score 0.0, Triage Category 0, and GC Score 0.0.\n\nAn upcoming appointment, number 14516303, is scheduled for June 24, 2025, from 17:16 to 17:21 at Clinic ID 8 with Doctor ID 163154. This visit is for Visit Type 3 and Visit For 10.\n\nOn August 7, 2017, doctor's orders were to \"send patient home,\" with nursing notes indicating discharge at 1620H in good condition, vitally stable, and no complaints. The patient left the unit ambulatory with his son."
+  },
+  {
+    "PatientID": 50087049,
+    "PatientInfo": {
+      "RegistrationDate": "20/02/2011",
+      "FirstName": "Khalid",
+      "MiddleName": "Nasser",
+      "LastName": "Abdullah",
+      "Gender": 1,
+      "DateofBirth": "20/02/1981 0:00",
+      "NationalityID": "SAU",
+      "FirstVisit": "20/02/2011 17:16",
+      "LastVisit": "12/8/2018 14:50",
+      "NoOfVisit": 44,
+      "MobileNumber": 555333541,
+      "EmailAddress": "khalid@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 0,
+      "RHFactor": " ",
+      "RegisteredDoctor": 6985,
+      "EmergencyContactName": "OMAR ",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "PatientID": 50087049,
+        "WeightKg": 76.4,
+        "HeightCm": 160.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 37.3,
+        "PulseBeatPerMinute": 117,
+        "RespirationBeatPerMinute": 19,
+        "BloodPressureLower": 76,
+        "BloodPressureHigher": 133,
+        "SAO2": 98,
+        "FIO2": 0.0,
+        "PainScore": 0.0,
+        "PainLocation": "na",
+        "PainDuration": "na",
+        "PainCharacter": "na",
+        "PainFrequency": "na",
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2018-03-23 14:56:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 16636216,
+        "AppointmentDate": "2019-05-16",
+        "PatientID": 50087049,
+        "ClinicID": 14,
+        "DoctorID": 16104,
+        "StartTime": "2025-06-24 15:00:00",
+        "EndTime": "2025-06-24 15:15:00",
+        "VisitType": 1,
+        "VisitFor": 1
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "PatientID": 50087049,
+        "ActualOrderDate": "2018-12-31",
+        "ActualOrderTime": "14:44",
+        "OrderNotes": "HD session 3:30 h, K=2 ,UF based on 77 , heparin2500",
+        "NursingNotes": "Noted and carried out"
+      }
+    ],
+    "Summary": "Patient Khalid Nasser Abdullah (ID: 50087049), born on 20/02/1981, is a male Saudi Arabian national (SAU). He was registered on 20/02/2011. His first visit was on 20/02/2011 at 17:16, and his last visit was on 12/8/2018 at 14:50, accumulating 44 visits. His mobile number is 555333541 and email is khalid@mail.com. His registered doctor is 6985. His blood group is 0 and RH factor is unspecified. His emergency contact is OMAR at 555333542.\n\nOn 2018-03-23 at 14:56:00, his vital signs were recorded as: Weight 76.4 kg, Height 160.0 cm, Body Mass Index 0.0. His temperature was 37.3 Celsius, pulse 117 beats per minute, and respiration 19 beats per minute. Blood pressure was 133/76, SAO2 98, and FIO2 0.0. His pain score was 0.0, with pain location, duration, character, and frequency all noted as \"na\". Triage category was 0 and GC score was 0.0.\n\nAn upcoming appointment (No: 16636216) is scheduled for 2019-05-16 at Clinic ID 14 with Doctor ID 16104, from 2025-06-24 15:00:00 to 2025-06-24 15:15:00. This is for Visit Type 1 and Visit For 1.\n\nThe latest doctor's order, dated 2018-12-31 at 14:44, states: \"HD session 3:30 h, K=2, UF based on 77, heparin2500\". The nursing notes confirm, \"Noted and carried out\"."
+  }
+]

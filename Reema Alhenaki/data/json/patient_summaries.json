@@ -1,0 +1,950 @@
+[
+  {
+    "PatientID": 2677554,
+    "PatientInfo": {
+      "RegistrationDate": "30/10/2017",
+      "FirstName": "Yusuf",
+      "MiddleName": "Abdullah",
+      "LastName": "Mubarak",
+      "Gender": 1,
+      "DateofBirth": "30/10/1963 0:00",
+      "NationalityID": "SAU",
+      "FirstVisit": "30/10/2017 9:42",
+      "LastVisit": "01/08/2019 13:05",
+      "NoOfVisit": 189,
+      "MobileNumber": 555333541,
+      "EmailAddress": "yusuf@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 4,
+      "RHFactor": "1",
+      "RegisteredDoctor": 152141,
+      "EmergencyContactName": "AHMAD",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "WeightKg": 103.0,
+        "HeightCm": 176.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 0.0,
+        "PulseBeatPerMinute": 85,
+        "RespirationBeatPerMinute": 18,
+        "BloodPressureLower": 103,
+        "BloodPressureHigher": 187,
+        "SAO2": 98,
+        "FIO2": 0.0,
+        "PainScore": 0.0,
+        "PainLocation": NaN,
+        "PainDuration": NaN,
+        "PainCharacter": NaN,
+        "PainFrequency": NaN,
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2018-05-16 14:09:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 17107657,
+        "AppointmentDate": "2019-08-04",
+        "ClinicID": 50,
+        "DoctorID": 149425,
+        "StartTime": "2025-06-24 13:00:00",
+        "EndTime": "2025-06-24 13:15:00",
+        "VisitType": 3,
+        "VisitFor": 10,
+        "Notes": NaN,
+        "IsVirtual": NaN
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "ActualOrderDate": "2019-08-01",
+        "ActualOrderTime": "15:",
+        "OrderNotes": "time: 4 hours, ultrafiltration according to weight gain,  heparin: 3500 units IV bolus",
+        "NursingNotes": "1250H -Hemodialysis started after patient re-identification -Gross Ultrafiltration: 4L as tolerated -Time Set: 4  hours duration -Anticoagulant: hibor 3500 units given via arterial port; independent double check done by RN  Hind "
+      }
+    ],
+    "Summary": {
+      "BasicInfoSummary": "Yusuf Abdullah Mubarak is a 61-year-old Saudi male patient. The first recorded visit was on 30/10/2017 9:42 and the assigned doctor was with the ID: 152141.",
+      "VitalsSummary": [
+        "On 2018-05-16, the vital signs were: Temperature 0.0°C, Pulse 85 bpm, Respiration 18 breaths/min, Blood Pressure 187/103 mmHg, Oxygen Saturation 98%, Pain Score 0.0."
+      ],
+      "AppointmentsSummary": [
+        "The appointment was on 2019-08-04 for Emergency. It took place at Clinic ID 50 with Doctor ID 149425. PS. This was a virtual appointment."
+      ],
+      "DoctorNotesSummary": [
+        "Doctor's note on 2019-08-01: time: 4 hours, ultrafiltration according to weight gain,  heparin: 3500 units IV bolus. Nursing note: 1250H -Hemodialysis started after patient re-identification -Gross Ultrafiltration: 4L as tolerated -Time Set: 4  hours duration -Anticoagulant: hibor 3500 units given via arterial port; independent double check done by RN  Hind ."
+      ]
+    }
+  },
+  {
+    "PatientID": 1910035,
+    "PatientInfo": {
+      "RegistrationDate": "19/10/2017",
+      "FirstName": "Ahmed",
+      "MiddleName": "Hassan",
+      "LastName": "Salem",
+      "Gender": 1,
+      "DateofBirth": "19/10/1989 17:04",
+      "NationalityID": "SAU",
+      "FirstVisit": "25/12/2012 1:38",
+      "LastVisit": "28/06/2017 14:10",
+      "NoOfVisit": 0,
+      "MobileNumber": 555333541,
+      "EmailAddress": "ahmed@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 0,
+      "RHFactor": NaN,
+      "RegisteredDoctor": 0,
+      "EmergencyContactName": "Unknown",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "WeightKg": 37.0,
+        "HeightCm": 143.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 36.0,
+        "PulseBeatPerMinute": 93,
+        "RespirationBeatPerMinute": 21,
+        "BloodPressureLower": 74,
+        "BloodPressureHigher": 151,
+        "SAO2": 0,
+        "FIO2": 0.0,
+        "PainScore": 2.0,
+        "PainLocation": NaN,
+        "PainDuration": NaN,
+        "PainCharacter": NaN,
+        "PainFrequency": NaN,
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2018-11-04 20:08:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 17098895,
+        "AppointmentDate": "2019-08-03",
+        "ClinicID": 50,
+        "DoctorID": 149425,
+        "StartTime": "2025-06-24 08:45:00",
+        "EndTime": "2025-06-24 09:00:00",
+        "VisitType": 3,
+        "VisitFor": 10,
+        "Notes": NaN,
+        "IsVirtual": NaN
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "ActualOrderDate": "2019-08-03",
+        "ActualOrderTime": "11:30",
+        "OrderNotes": "hemodialysis: 4 hours, ultrafiltration  as tolerated , heparin 2500 units IV bolus ",
+        "NursingNotes": " 0830 H: * Hemodialysis started after patient re identification with UF set to 3.7 L ( UF net:3.4 L +300 ml backwash) for 4 hours . * Hiboor 2500 unit given IV bolus after independent double check by RN Kristy and patient re identification."
+      }
+    ],
+    "Summary": {
+      "BasicInfoSummary": "Ahmed Hassan Salem is a 35-year-old Saudi male patient. The first recorded visit was on 25/12/2012 1:38 and the assigned doctor was with the ID: 0.",
+      "VitalsSummary": [
+        "On 2018-11-04, the vital signs were: Temperature 36.0°C, Pulse 93 bpm, Respiration 21 breaths/min, Blood Pressure 151/74 mmHg, Oxygen Saturation 0%, Pain Score 2.0."
+      ],
+      "AppointmentsSummary": [
+        "The appointment was on 2019-08-03 for Emergency. It took place at Clinic ID 50 with Doctor ID 149425. PS. This was a virtual appointment."
+      ],
+      "DoctorNotesSummary": [
+        "Doctor's note on 2019-08-03: hemodialysis: 4 hours, ultrafiltration  as tolerated , heparin 2500 units IV bolus . Nursing note:  0830 H: * Hemodialysis started after patient re identification with UF set to 3.7 L ( UF net:3.4 L +300 ml backwash) for 4 hours . * Hiboor 2500 unit given IV bolus after independent double check by RN Kristy and patient re identification.."
+      ]
+    }
+  },
+  {
+    "PatientID": 2573089,
+    "PatientInfo": {
+      "RegistrationDate": "14/05/2017",
+      "FirstName": "Faisal",
+      "MiddleName": "Hassan",
+      "LastName": "Abdullah",
+      "Gender": 1,
+      "DateofBirth": "13/05/1985 0:00",
+      "NationalityID": "SAU",
+      "FirstVisit": "14/05/2017 18:01",
+      "LastVisit": "07/05/2019 20:48",
+      "NoOfVisit": 8,
+      "MobileNumber": 555333541,
+      "EmailAddress": "faisal@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 0,
+      "RHFactor": " ",
+      "RegisteredDoctor": 103127,
+      "EmergencyContactName": "FAHAD",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "WeightKg": 74.0,
+        "HeightCm": 178.0,
+        "BodyMassIndex": 23.36,
+        "TemperatureCelcius": 36.0,
+        "PulseBeatPerMinute": 83,
+        "RespirationBeatPerMinute": 18,
+        "BloodPressureLower": 93,
+        "BloodPressureHigher": 208,
+        "SAO2": 99,
+        "FIO2": 0.0,
+        "PainScore": NaN,
+        "PainLocation": NaN,
+        "PainDuration": NaN,
+        "PainCharacter": NaN,
+        "PainFrequency": NaN,
+        "TriageCategory": 0,
+        "GCScore": NaN,
+        "CreatedOn": "2018-04-11 09:47:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 16592340,
+        "AppointmentDate": "2019-10-15",
+        "ClinicID": 17,
+        "DoctorID": 218175,
+        "StartTime": "2025-06-24 14:00:00",
+        "EndTime": "2025-06-24 15:00:00",
+        "VisitType": 5,
+        "VisitFor": 17,
+        "Notes": NaN,
+        "IsVirtual": NaN
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "ActualOrderDate": "2018-07-24",
+        "ActualOrderTime": "11:55",
+        "OrderNotes": "hemodialysis session 4 hrs, net UF 4L, K 2, heparin 1000 un",
+        "NursingNotes": "0930H - Hemodialysis treatment started after patient re- identification with Ultrafiltration goal set to 4 L  for 4 hours duration with loading dose of Heparin 1000 international unit given after patient re identification and independent double checking with RN Marny."
+      }
+    ],
+    "Summary": {
+      "BasicInfoSummary": "Faisal Hassan Abdullah is a 40-year-old Saudi male patient. The first recorded visit was on 14/05/2017 18:01 and the assigned doctor was with the ID: 103127.",
+      "VitalsSummary": [
+        "On 2018-04-11, the vital signs were: Temperature 36.0°C, Pulse 83 bpm, Respiration 18 breaths/min, Blood Pressure 208/93 mmHg, Oxygen Saturation 99%, Pain Score nan."
+      ],
+      "AppointmentsSummary": [
+        "The appointment was on 2019-10-15 for Walk-in. It took place at Clinic ID 17 with Doctor ID 218175. PS. This was a virtual appointment."
+      ],
+      "DoctorNotesSummary": [
+        "Doctor's note on 2018-07-24: hemodialysis session 4 hrs, net UF 4L, K 2, heparin 1000 un. Nursing note: 0930H - Hemodialysis treatment started after patient re- identification with Ultrafiltration goal set to 4 L  for 4 hours duration with loading dose of Heparin 1000 international unit given after patient re identification and independent double checking with RN Marny.."
+      ]
+    }
+  },
+  {
+    "PatientID": 2420011,
+    "PatientInfo": {
+      "RegistrationDate": "13/10/2016",
+      "FirstName": "Khalid",
+      "MiddleName": "Salem",
+      "LastName": "Salem",
+      "Gender": 1,
+      "DateofBirth": "13/10/1954 0:00",
+      "NationalityID": "YEM",
+      "FirstVisit": "13/10/2016 16:48",
+      "LastVisit": "03/08/2019 7:33",
+      "NoOfVisit": 302,
+      "MobileNumber": 555333541,
+      "EmailAddress": "khalid@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 2,
+      "RHFactor": "1",
+      "RegisteredDoctor": 139949,
+      "EmergencyContactName": "ABDULLAH",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "WeightKg": 55.0,
+        "HeightCm": 175.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 37.8,
+        "PulseBeatPerMinute": 84,
+        "RespirationBeatPerMinute": 24,
+        "BloodPressureLower": 79,
+        "BloodPressureHigher": 138,
+        "SAO2": 98,
+        "FIO2": 0.0,
+        "PainScore": 0.0,
+        "PainLocation": NaN,
+        "PainDuration": NaN,
+        "PainCharacter": NaN,
+        "PainFrequency": NaN,
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2017-10-01 23:39:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 17110601,
+        "AppointmentDate": "2019-08-05",
+        "ClinicID": 50,
+        "DoctorID": 149425,
+        "StartTime": "2025-06-24 08:45:00",
+        "EndTime": "2025-06-24 09:00:00",
+        "VisitType": 3,
+        "VisitFor": 10,
+        "Notes": NaN,
+        "IsVirtual": NaN
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "ActualOrderDate": "2019-08-03",
+        "ActualOrderTime": "11:23",
+        "OrderNotes": "time: 4 hours, Ultrafiltration according to weight gain, heparin 1000 units IV bolus",
+        "NursingNotes": "0800H - Hemodialysis treatment started  after patient re- identification with Ultrafiltration goal set to 3 Liters gross as tolerated for 4  hours duration as per Droctor's order.. - No episodes of bleeding as patient verbalized, Heparin 1000iu given after patient identification and independent double checked by RN Kristy."
+      }
+    ],
+    "Summary": {
+      "BasicInfoSummary": "Khalid Salem Salem is a 70-year-old Unknown male patient. The first recorded visit was on 13/10/2016 16:48 and the assigned doctor was with the ID: 139949.",
+      "VitalsSummary": [
+        "On 2017-10-01, the vital signs were: Temperature 37.8°C, Pulse 84 bpm, Respiration 24 breaths/min, Blood Pressure 138/79 mmHg, Oxygen Saturation 98%, Pain Score 0.0."
+      ],
+      "AppointmentsSummary": [
+        "The appointment was on 2019-08-05 for Emergency. It took place at Clinic ID 50 with Doctor ID 149425. PS. This was a virtual appointment."
+      ],
+      "DoctorNotesSummary": [
+        "Doctor's note on 2019-08-03: time: 4 hours, Ultrafiltration according to weight gain, heparin 1000 units IV bolus. Nursing note: 0800H - Hemodialysis treatment started  after patient re- identification with Ultrafiltration goal set to 3 Liters gross as tolerated for 4  hours duration as per Droctor's order.. - No episodes of bleeding as patient verbalized, Heparin 1000iu given after patient identification and independent double checked by RN Kristy.."
+      ]
+    }
+  },
+  {
+    "PatientID": 2339688,
+    "PatientInfo": {
+      "RegistrationDate": "13/06/2016",
+      "FirstName": "Sara",
+      "MiddleName": "Mubarak",
+      "LastName": "Mubarak",
+      "Gender": 2,
+      "DateofBirth": "11/06/1987 0:00",
+      "NationalityID": "SAU",
+      "FirstVisit": "13/06/2016 22:19",
+      "LastVisit": "27/06/2019 10:55",
+      "NoOfVisit": 397,
+      "MobileNumber": 555333541,
+      "EmailAddress": "sara@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 0,
+      "RHFactor": " ",
+      "RegisteredDoctor": 140338,
+      "EmergencyContactName": "TURKI",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "WeightKg": 69.0,
+        "HeightCm": 169.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 37.0,
+        "PulseBeatPerMinute": 64,
+        "RespirationBeatPerMinute": 21,
+        "BloodPressureLower": 83,
+        "BloodPressureHigher": 176,
+        "SAO2": 100,
+        "FIO2": 0.0,
+        "PainScore": 2.0,
+        "PainLocation": "chest",
+        "PainDuration": "today",
+        "PainCharacter": "aching",
+        "PainFrequency": "continuous",
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2017-02-28 12:33:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 16841540,
+        "AppointmentDate": "2019-07-03",
+        "ClinicID": 27,
+        "DoctorID": 203170,
+        "StartTime": "2025-06-24 18:00:00",
+        "EndTime": "2025-06-24 18:15:00",
+        "VisitType": 1,
+        "VisitFor": 10,
+        "Notes": NaN,
+        "IsVirtual": NaN
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "ActualOrderDate": "2019-06-27",
+        "ActualOrderTime": "12:34",
+        "OrderNotes": "hemodialysis session: 3:30 hours, ultrafilteration according to weight gain, K: 2, heparin 2500units IV bolus",
+        "NursingNotes": "1135H * Hemodialysis treatment started after patient re identification. Parameters set to the machine. * Hibor 2500 units given IV bolus thru venous port after patient re identification and independent double checked by RN Kristy "
+      }
+    ],
+    "Summary": {
+      "BasicInfoSummary": "Sara Mubarak Mubarak is a 37-year-old Saudi female patient. The first recorded visit was on 13/06/2016 22:19 and the assigned doctor was with the ID: 140338.",
+      "VitalsSummary": [
+        "On 2017-02-28, the vital signs were: Temperature 37.0°C, Pulse 64 bpm, Respiration 21 breaths/min, Blood Pressure 176/83 mmHg, Oxygen Saturation 100%, Pain Score 2.0. Pain located at chest. Pain described as aching."
+      ],
+      "AppointmentsSummary": [
+        "The appointment was on 2019-07-03 for Consultation. It took place at Clinic ID 27 with Doctor ID 203170. PS. This was a virtual appointment."
+      ],
+      "DoctorNotesSummary": [
+        "Doctor's note on 2019-06-27: hemodialysis session: 3:30 hours, ultrafilteration according to weight gain, K: 2, heparin 2500units IV bolus. Nursing note: 1135H * Hemodialysis treatment started after patient re identification. Parameters set to the machine. * Hibor 2500 units given IV bolus thru venous port after patient re identification and independent double checked by RN Kristy ."
+      ]
+    }
+  },
+  {
+    "PatientID": 2116903,
+    "PatientInfo": {
+      "RegistrationDate": "24/08/2015",
+      "FirstName": "Yusuf",
+      "MiddleName": "Abdullah",
+      "LastName": "Salem",
+      "Gender": 1,
+      "DateofBirth": "20/11/1960 17:33",
+      "NationalityID": "SAU",
+      "FirstVisit": "24/08/2015 14:12",
+      "LastVisit": "12/02/2018 20:01",
+      "NoOfVisit": 40,
+      "MobileNumber": 555333541,
+      "EmailAddress": "yusuf@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 4,
+      "RHFactor": "2",
+      "RegisteredDoctor": 11270,
+      "EmergencyContactName": "WAIF",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "WeightKg": 110.0,
+        "HeightCm": 170.0,
+        "BodyMassIndex": 38.06,
+        "TemperatureCelcius": 36.0,
+        "PulseBeatPerMinute": 65,
+        "RespirationBeatPerMinute": 22,
+        "BloodPressureLower": 96,
+        "BloodPressureHigher": 186,
+        "SAO2": 98,
+        "FIO2": 21.0,
+        "PainScore": NaN,
+        "PainLocation": NaN,
+        "PainDuration": NaN,
+        "PainCharacter": NaN,
+        "PainFrequency": NaN,
+        "TriageCategory": 0,
+        "GCScore": NaN,
+        "CreatedOn": "2016-10-30 00:21:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 16435597,
+        "AppointmentDate": "2019-04-14",
+        "ClinicID": 6,
+        "DoctorID": 152542,
+        "StartTime": "2025-06-24 21:30:00",
+        "EndTime": "2025-06-24 21:45:00",
+        "VisitType": 1,
+        "VisitFor": 10,
+        "Notes": NaN,
+        "IsVirtual": NaN
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "ActualOrderDate": "2017-06-06",
+        "ActualOrderTime": "16:19",
+        "OrderNotes": "dialysis order: duration: 4 hours Ultrafiltration: 4 L total as tolerated K: 2 Bicarb: 3 Na: 14.0 Dialyzer: 18 Heparin: 1000 units IV bolus",
+        "NursingNotes": "1238H -Hemodialysis treatment started after patient re- identification with Ultrafiltration Total of goal set to 4.0 Liters  included backwash and Intake for 4  hours - Heparin sodium 1000 unit/mL given to patient after reidentification and double check with RN Jessica"
+      }
+    ],
+    "Summary": {
+      "BasicInfoSummary": "Yusuf Abdullah Salem is a 64-year-old Saudi male patient. The first recorded visit was on 24/08/2015 14:12 and the assigned doctor was with the ID: 11270.",
+      "VitalsSummary": [
+        "On 2016-10-30, the vital signs were: Temperature 36.0°C, Pulse 65 bpm, Respiration 22 breaths/min, Blood Pressure 186/96 mmHg, Oxygen Saturation 98%, Pain Score nan."
+      ],
+      "AppointmentsSummary": [
+        "The appointment was on 2019-04-14 for Consultation. It took place at Clinic ID 6 with Doctor ID 152542. PS. This was a virtual appointment."
+      ],
+      "DoctorNotesSummary": [
+        "Doctor's note on 2017-06-06: dialysis order: duration: 4 hours Ultrafiltration: 4 L total as tolerated K: 2 Bicarb: 3 Na: 14.0 Dialyzer: 18 Heparin: 1000 units IV bolus. Nursing note: 1238H -Hemodialysis treatment started after patient re- identification with Ultrafiltration Total of goal set to 4.0 Liters  included backwash and Intake for 4  hours - Heparin sodium 1000 unit/mL given to patient after reidentification and double check with RN Jessica."
+      ]
+    }
+  },
+  {
+    "PatientID": 2080108,
+    "PatientInfo": {
+      "RegistrationDate": "04/07/2015",
+      "FirstName": "Noor",
+      "MiddleName": "Nasser",
+      "LastName": "Mubarak",
+      "Gender": 2,
+      "DateofBirth": "04/01/1936 11:29",
+      "NationalityID": "SAU",
+      "FirstVisit": "05/07/2015 12:52",
+      "LastVisit": "01/08/2019 15:32",
+      "NoOfVisit": 168,
+      "MobileNumber": 555333541,
+      "EmailAddress": "noor@mail.com",
+      "IsPregnant": 1,
+      "BloodGroup": 0,
+      "RHFactor": " ",
+      "RegisteredDoctor": 8219,
+      "EmergencyContactName": "RAGAD FOR BILING",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "WeightKg": 53.0,
+        "HeightCm": 150.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 36.0,
+        "PulseBeatPerMinute": 83,
+        "RespirationBeatPerMinute": 20,
+        "BloodPressureLower": 69,
+        "BloodPressureHigher": 164,
+        "SAO2": 0,
+        "FIO2": 0.0,
+        "PainScore": 0.0,
+        "PainLocation": NaN,
+        "PainDuration": NaN,
+        "PainCharacter": NaN,
+        "PainFrequency": NaN,
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2017-08-30 13:45:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 16951560,
+        "AppointmentDate": "2019-10-10",
+        "ClinicID": 17,
+        "DoctorID": 174058,
+        "StartTime": "2025-06-24 15:45:00",
+        "EndTime": "2025-06-24 16:45:00",
+        "VisitType": 5,
+        "VisitFor": 17,
+        "Notes": NaN,
+        "IsVirtual": NaN
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "ActualOrderDate": "2019-08-03",
+        "ActualOrderTime": "16:48",
+        "OrderNotes": "time: 3:30 hours ,  ultrafiltration according to dry weight,  hibor 2500 IV bolus",
+        "NursingNotes": "noted after apatient re identifiction done"
+      }
+    ],
+    "Summary": {
+      "BasicInfoSummary": "Noor Nasser Mubarak is a 89-year-old Saudi female patient. The first recorded visit was on 05/07/2015 12:52 and the assigned doctor was with the ID: 8219.",
+      "VitalsSummary": [
+        "On 2017-08-30, the vital signs were: Temperature 36.0°C, Pulse 83 bpm, Respiration 20 breaths/min, Blood Pressure 164/69 mmHg, Oxygen Saturation 0%, Pain Score 0.0."
+      ],
+      "AppointmentsSummary": [
+        "The appointment was on 2019-10-10 for Walk-in. It took place at Clinic ID 17 with Doctor ID 174058. PS. This was a virtual appointment."
+      ],
+      "DoctorNotesSummary": [
+        "Doctor's note on 2019-08-03: time: 3:30 hours ,  ultrafiltration according to dry weight,  hibor 2500 IV bolus. Nursing note: noted after apatient re identifiction done."
+      ]
+    }
+  },
+  {
+    "PatientID": 1424125,
+    "PatientInfo": {
+      "RegistrationDate": "22/01/2014",
+      "FirstName": "Faisal",
+      "MiddleName": "Mubarak",
+      "LastName": "Nasser",
+      "Gender": 1,
+      "DateofBirth": "18/01/1962 0:00",
+      "NationalityID": "SDN",
+      "FirstVisit": "08/07/2014 13:43",
+      "LastVisit": "15/04/2019 11:18",
+      "NoOfVisit": 97,
+      "MobileNumber": 555333541,
+      "EmailAddress": "faisal@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 0,
+      "RHFactor": " ",
+      "RegisteredDoctor": 16145,
+      "EmergencyContactName": "SON",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "WeightKg": 75.0,
+        "HeightCm": 175.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 37.7,
+        "PulseBeatPerMinute": 118,
+        "RespirationBeatPerMinute": 24,
+        "BloodPressureLower": 94,
+        "BloodPressureHigher": 190,
+        "SAO2": 97,
+        "FIO2": NaN,
+        "PainScore": 0.0,
+        "PainLocation": NaN,
+        "PainDuration": NaN,
+        "PainCharacter": NaN,
+        "PainFrequency": NaN,
+        "TriageCategory": 2,
+        "GCScore": 15.0,
+        "CreatedOn": "2015-01-22 12:22:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 16672781,
+        "AppointmentDate": "2019-05-21",
+        "ClinicID": 50,
+        "DoctorID": 100159,
+        "StartTime": "2025-06-24 07:20:00",
+        "EndTime": "2025-06-24 07:25:00",
+        "VisitType": 3,
+        "VisitFor": 4,
+        "Notes": NaN,
+        "IsVirtual": NaN
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "ActualOrderDate": "2019-05-21",
+        "ActualOrderTime": "10:21",
+        "OrderNotes": "Hemodialysis 4  hrs, Ultrafiltration according to dry weight, K 1, innohep 1000 un",
+        "NursingNotes": "Noted and carried out  Therapy time provided 3 hour 40 minutes due to patient started dialysis late .ACN.Laila is aware."
+      }
+    ],
+    "Summary": {
+      "BasicInfoSummary": "Faisal Mubarak Nasser is a 63-year-old Unknown male patient. The first recorded visit was on 08/07/2014 13:43 and the assigned doctor was with the ID: 16145.",
+      "VitalsSummary": [
+        "On 2015-01-22, the vital signs were: Temperature 37.7°C, Pulse 118 bpm, Respiration 24 breaths/min, Blood Pressure 190/94 mmHg, Oxygen Saturation 97%, Pain Score 0.0."
+      ],
+      "AppointmentsSummary": [
+        "The appointment was on 2019-05-21 for Emergency. It took place at Clinic ID 50 with Doctor ID 100159. PS. This was a virtual appointment."
+      ],
+      "DoctorNotesSummary": [
+        "Doctor's note on 2019-05-21: Hemodialysis 4  hrs, Ultrafiltration according to dry weight, K 1, innohep 1000 un. Nursing note: Noted and carried out  Therapy time provided 3 hour 40 minutes due to patient started dialysis late .ACN.Laila is aware.."
+      ]
+    }
+  },
+  {
+    "PatientID": 1354371,
+    "PatientInfo": {
+      "RegistrationDate": "23/10/2013",
+      "FirstName": "Sara",
+      "MiddleName": "Abdullah",
+      "LastName": "Nasser",
+      "Gender": 2,
+      "DateofBirth": "20/04/1948 0:00",
+      "NationalityID": "SAU",
+      "FirstVisit": "23/10/2013 21:24",
+      "LastVisit": "04/04/2018 13:33",
+      "NoOfVisit": 36,
+      "MobileNumber": 555333541,
+      "EmailAddress": "sara@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 4,
+      "RHFactor": "1",
+      "RegisteredDoctor": 16145,
+      "EmergencyContactName": "DRIVER",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "WeightKg": 48.35,
+        "HeightCm": 157.5,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 36.5,
+        "PulseBeatPerMinute": 71,
+        "RespirationBeatPerMinute": 18,
+        "BloodPressureLower": 91,
+        "BloodPressureHigher": 185,
+        "SAO2": 99,
+        "FIO2": NaN,
+        "PainScore": 0.0,
+        "PainLocation": NaN,
+        "PainDuration": NaN,
+        "PainCharacter": NaN,
+        "PainFrequency": NaN,
+        "TriageCategory": 3,
+        "GCScore": 15.0,
+        "CreatedOn": "2014-08-06 03:17:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 2016067351,
+        "AppointmentDate": "2024-04-28",
+        "ClinicID": 1,
+        "DoctorID": 420,
+        "StartTime": "2025-06-24 15:07:00",
+        "EndTime": "2025-06-24 15:12:00",
+        "VisitType": 6,
+        "VisitFor": 10,
+        "Notes": "Walk in Appointment for Inpatient Initial Assessment",
+        "IsVirtual": NaN
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "ActualOrderDate": "2019-08-01",
+        "ActualOrderTime": "14:57",
+        "OrderNotes": "Hemodialysis session: 4 hrs, Ultrafiltration according to weight gain, K 2, heparin free",
+        "NursingNotes": "Noted and done after patient reidentification done."
+      }
+    ],
+    "Summary": {
+      "BasicInfoSummary": "Sara Abdullah Nasser is a 77-year-old Saudi female patient. The first recorded visit was on 23/10/2013 21:24 and the assigned doctor was with the ID: 16145.",
+      "VitalsSummary": [
+        "On 2014-08-06, the vital signs were: Temperature 36.5°C, Pulse 71 bpm, Respiration 18 breaths/min, Blood Pressure 185/91 mmHg, Oxygen Saturation 99%, Pain Score 0.0."
+      ],
+      "AppointmentsSummary": [
+        "The appointment was on 2024-04-28 for Inpatient. It took place at Clinic ID 1 with Doctor ID 420. Notes: Walk in Appointment for Inpatient Initial Assessment. PS. This was a virtual appointment."
+      ],
+      "DoctorNotesSummary": [
+        "Doctor's note on 2019-08-01: Hemodialysis session: 4 hrs, Ultrafiltration according to weight gain, K 2, heparin free. Nursing note: Noted and done after patient reidentification done.."
+      ]
+    }
+  },
+  {
+    "PatientID": 1144414,
+    "PatientInfo": {
+      "RegistrationDate": "25/12/2012",
+      "FirstName": "Noor",
+      "MiddleName": "Abdullah",
+      "LastName": "Salem",
+      "Gender": 2,
+      "DateofBirth": "25/12/1969 0:00",
+      "NationalityID": "EGY",
+      "FirstVisit": "25/12/2012 1:38",
+      "LastVisit": "28/06/2017 14:10",
+      "NoOfVisit": 61,
+      "MobileNumber": 555333541,
+      "EmailAddress": "noor@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 1,
+      "RHFactor": "2",
+      "RegisteredDoctor": 11270,
+      "EmergencyContactName": "KALAD",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "WeightKg": 1.0,
+        "HeightCm": 1.0,
+        "BodyMassIndex": 10000.0,
+        "TemperatureCelcius": 39.3,
+        "PulseBeatPerMinute": 78,
+        "RespirationBeatPerMinute": 23,
+        "BloodPressureLower": 60,
+        "BloodPressureHigher": 120,
+        "SAO2": 90,
+        "FIO2": 0.0,
+        "PainScore": 5.0,
+        "PainLocation": NaN,
+        "PainDuration": NaN,
+        "PainCharacter": NaN,
+        "PainFrequency": NaN,
+        "TriageCategory": 0,
+        "GCScore": NaN,
+        "CreatedOn": "2017-05-04 01:39:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 12177428,
+        "AppointmentDate": "2017-06-28",
+        "ClinicID": 50,
+        "DoctorID": 134050,
+        "StartTime": "2025-06-24 13:30:00",
+        "EndTime": "2025-06-24 13:45:00",
+        "VisitType": 3,
+        "VisitFor": 10,
+        "Notes": NaN,
+        "IsVirtual": NaN
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "ActualOrderDate": "2017-06-28",
+        "ActualOrderTime": "16:39",
+        "OrderNotes": "send patient home",
+        "NursingNotes": "Carried out: * Discharged patient from the unit after re identification at 0130 H * Patient left the unit per wheelchair accompanied by her son in stable condition."
+      }
+    ],
+    "Summary": {
+      "BasicInfoSummary": "Noor Abdullah Salem is a 55-year-old Egyptian female patient. The first recorded visit was on 25/12/2012 1:38 and the assigned doctor was with the ID: 11270.",
+      "VitalsSummary": [
+        "On 2017-05-04, the vital signs were: Temperature 39.3°C, Pulse 78 bpm, Respiration 23 breaths/min, Blood Pressure 120/60 mmHg, Oxygen Saturation 90%, Pain Score 5.0."
+      ],
+      "AppointmentsSummary": [
+        "The appointment was on 2017-06-28 for Emergency. It took place at Clinic ID 50 with Doctor ID 134050. PS. This was a virtual appointment."
+      ],
+      "DoctorNotesSummary": [
+        "Doctor's note on 2017-06-28: send patient home. Nursing note: Carried out: * Discharged patient from the unit after re identification at 0130 H * Patient left the unit per wheelchair accompanied by her son in stable condition.."
+      ]
+    }
+  },
+  {
+    "PatientID": 50172351,
+    "PatientInfo": {
+      "RegistrationDate": "20/12/2011",
+      "FirstName": "Yusuf",
+      "MiddleName": "Abdullah",
+      "LastName": "Abdullah",
+      "Gender": 1,
+      "DateofBirth": "20/12/1967 14:43",
+      "NationalityID": "SAU",
+      "FirstVisit": "20/12/2011 14:44",
+      "LastVisit": "25/06/2018 17:17",
+      "NoOfVisit": 19,
+      "MobileNumber": 555333541,
+      "EmailAddress": "yusuf@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 0,
+      "RHFactor": " ",
+      "RegisteredDoctor": 9802,
+      "EmergencyContactName": "NAWAL",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "WeightKg": 100.0,
+        "HeightCm": 167.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 36.9,
+        "PulseBeatPerMinute": 86,
+        "RespirationBeatPerMinute": 20,
+        "BloodPressureLower": 83,
+        "BloodPressureHigher": 190,
+        "SAO2": 99,
+        "FIO2": 0.0,
+        "PainScore": 0.0,
+        "PainLocation": NaN,
+        "PainDuration": NaN,
+        "PainCharacter": NaN,
+        "PainFrequency": NaN,
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2017-07-18 17:59:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 14516303,
+        "AppointmentDate": "2018-07-02",
+        "ClinicID": 8,
+        "DoctorID": 163154,
+        "StartTime": "2025-06-24 17:16:00",
+        "EndTime": "2025-06-24 17:21:00",
+        "VisitType": 3,
+        "VisitFor": 10,
+        "Notes": NaN,
+        "IsVirtual": NaN
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "ActualOrderDate": "2017-08-07",
+        "ActualOrderTime": "16:23",
+        "OrderNotes": "send patient home",
+        "NursingNotes": "1620H - Discharged in good condition, vitally stable and no complaints. Left the unit ambulatory with his son. "
+      }
+    ],
+    "Summary": {
+      "BasicInfoSummary": "Yusuf Abdullah Abdullah is a 57-year-old Saudi male patient. The first recorded visit was on 20/12/2011 14:44 and the assigned doctor was with the ID: 9802.",
+      "VitalsSummary": [
+        "On 2017-07-18, the vital signs were: Temperature 36.9°C, Pulse 86 bpm, Respiration 20 breaths/min, Blood Pressure 190/83 mmHg, Oxygen Saturation 99%, Pain Score 0.0."
+      ],
+      "AppointmentsSummary": [
+        "The appointment was on 2018-07-02 for Emergency. It took place at Clinic ID 8 with Doctor ID 163154. PS. This was a virtual appointment."
+      ],
+      "DoctorNotesSummary": [
+        "Doctor's note on 2017-08-07: send patient home. Nursing note: 1620H - Discharged in good condition, vitally stable and no complaints. Left the unit ambulatory with his son. ."
+      ]
+    }
+  },
+  {
+    "PatientID": 50087049,
+    "PatientInfo": {
+      "RegistrationDate": "20/02/2011",
+      "FirstName": "Khalid",
+      "MiddleName": "Nasser",
+      "LastName": "Abdullah",
+      "Gender": 1,
+      "DateofBirth": "20/02/1981 0:00",
+      "NationalityID": "SAU",
+      "FirstVisit": "20/02/2011 17:16",
+      "LastVisit": "12/08/2018 14:50",
+      "NoOfVisit": 44,
+      "MobileNumber": 555333541,
+      "EmailAddress": "khalid@mail.com",
+      "IsPregnant": 0,
+      "BloodGroup": 0,
+      "RHFactor": " ",
+      "RegisteredDoctor": 6985,
+      "EmergencyContactName": "OMAR ",
+      "EmergencyContactNo": 555333542
+    },
+    "VitalSigns": [
+      {
+        "WeightKg": 76.4,
+        "HeightCm": 160.0,
+        "BodyMassIndex": 0.0,
+        "TemperatureCelcius": 37.3,
+        "PulseBeatPerMinute": 117,
+        "RespirationBeatPerMinute": 19,
+        "BloodPressureLower": 76,
+        "BloodPressureHigher": 133,
+        "SAO2": 98,
+        "FIO2": 0.0,
+        "PainScore": 0.0,
+        "PainLocation": "na",
+        "PainDuration": "na",
+        "PainCharacter": "na",
+        "PainFrequency": "na",
+        "TriageCategory": 0,
+        "GCScore": 0.0,
+        "CreatedOn": "2018-03-23 14:56:00"
+      }
+    ],
+    "Appointments": [
+      {
+        "AppointmentNo": 16636216,
+        "AppointmentDate": "2019-05-16",
+        "ClinicID": 14,
+        "DoctorID": 16104,
+        "StartTime": "2025-06-24 15:00:00",
+        "EndTime": "2025-06-24 15:15:00",
+        "VisitType": 1,
+        "VisitFor": 1,
+        "Notes": NaN,
+        "IsVirtual": NaN
+      }
+    ],
+    "DoctorOrders": [
+      {
+        "ActualOrderDate": "2018-12-31",
+        "ActualOrderTime": "14:44",
+        "OrderNotes": "HD session 3:30 h, K=2 ,UF based on 77 , heparin2500",
+        "NursingNotes": "Noted and carried out"
+      }
+    ],
+    "Summary": {
+      "BasicInfoSummary": "Khalid Nasser Abdullah is a 44-year-old Saudi male patient. The first recorded visit was on 20/02/2011 17:16 and the assigned doctor was with the ID: 6985.",
+      "VitalsSummary": [
+        "On 2018-03-23, the vital signs were: Temperature 37.3°C, Pulse 117 bpm, Respiration 19 breaths/min, Blood Pressure 133/76 mmHg, Oxygen Saturation 98%, Pain Score 0.0. Pain located at na. Pain described as na."
+      ],
+      "AppointmentsSummary": [
+        "The appointment was on 2019-05-16 for Consultation. It took place at Clinic ID 14 with Doctor ID 16104. PS. This was a virtual appointment."
+      ],
+      "DoctorNotesSummary": [
+        "Doctor's note on 2018-12-31: HD session 3:30 h, K=2 ,UF based on 77 , heparin2500. Nursing note: Noted and carried out."
+      ]
+    }
+  }
+]
