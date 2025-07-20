@@ -13,17 +13,20 @@
 - AI fundamentals and ML components
 - Linear Regression (from scratch + sklearn) 
 - Logistic Regression on Titanic dataset
-- Decision Trees (current)
-- Planned: Random Forest, SVM
+  
+**Week 2-3:**
+- Decision Trees
+- Random Forest
+- on Wine quality dataset from scratch
+- Neural Networks
 
-**Week 2:** (Planned)
-Neural Networks, Deep Learning
+
 
 ## Algorithms Completed
 1. Linear Regression ✅
 2. Logistic Regression ✅  
 3. Decision Trees ✅
-4. Random Forest .....
+4. Random Forest ✅
 
 **Tech Stack:** Python, pandas, scikit-learn, numpy
 
