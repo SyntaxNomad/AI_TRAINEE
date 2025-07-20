@@ -22,7 +22,8 @@ Neural Networks, Deep Learning
 ## Algorithms Completed
 1. Linear Regression ✅
 2. Logistic Regression ✅  
-3. Decision Trees (in progress)
+3. Decision Trees ✅
+4. Random Forest .....
 
 **Tech Stack:** Python, pandas, scikit-learn, numpy
 
