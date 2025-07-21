@@ -5,7 +5,8 @@
 
 ## Module Progress
 **Module 1:** AI/ML Fundamentals ✅  
-**Module 2:** ML Algorithms (In Progress)
+**Module 2:** ML Algorithms ✅  
+**Module 3** Deep learning and Neural networks with example projects (in progress....)
 
 ## Weekly Progress
 
@@ -19,6 +20,7 @@
 - Random Forest
 - on Wine quality dataset from scratch
 - Neural Networks
+- MNIST dataset
 
 
 
@@ -27,8 +29,9 @@
 2. Logistic Regression ✅  
 3. Decision Trees ✅
 4. Random Forest ✅
-
-**Tech Stack:** Python, pandas, scikit-learn, numpy
+5. Neural network for digit recognition
+6. 
+**Tech Stack:** Python, pandas, scikit-learn, numpy, tensorflow, matplotlib
 
 ---
 *Updated frequently*
