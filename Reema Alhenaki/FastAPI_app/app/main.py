@@ -5,10 +5,22 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 from typing import Dict
 from app.routers import patient
 from app.database import engine, Base
+from app import models
+
 
 
 
 app = FastAPI()
+
+# Create all tables
+Base.metadata.create_all(bind=engine)
+
+@app.exception_handler(StarletteHTTPException)
+async def http_exception_handler(request: Request, exc: StarletteHTTPException):
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={"error": exc.detail or "An error occurred"},
+    )
 
 @app.exception_handler(RequestValidationError)
 async def custom_validation_exception_handler(request: Request, exc: RequestValidationError):
@@ -28,7 +40,6 @@ async def custom_validation_exception_handler(request: Request, exc: RequestVali
     def to_user_message(field: str, message: str) -> str:
         known: Dict[str, str] = {
             "Field contains a default placeholder value": f"{field} cannot be a placeholder like 'string'. Please enter real information.",
-            "Mobile number must not start with 0": "Mobile number must not start with 0. Use quotes if needed: \"0123456789\".",
             "Field cannot be empty": f"{field} cannot be empty.",
         }
         return known.get(message, f"There is an issue with the field '{field}': {message}")

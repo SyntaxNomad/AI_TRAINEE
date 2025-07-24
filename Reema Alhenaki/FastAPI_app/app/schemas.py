@@ -1,7 +1,37 @@
-
 from pydantic import BaseModel, Field, field_validator
 from typing import Optional
 import datetime
+
+
+def validate_placeholder(value: str) -> str:
+    """
+    Ensures value is not empty, default, or placeholder string.
+    """
+    if not value.strip() or value.strip().lower() in {"default", "string"}:
+        raise ValueError("Field contains an invalid placeholder value")
+    return value
+
+
+def validate_mobile(value: str) -> str:
+    """
+    Validates Saudi-style mobile numbers (must start with '5', not '0', 9 digits).
+    """
+    if value in {"default", "string", ""}:
+        raise ValueError("Mobile number cannot be a placeholder")
+    if value.startswith("0"):
+        raise ValueError("Mobile number must not start with 0")
+    if not value.startswith("5"):
+        raise ValueError("Mobile number must start with 5")
+    if not value.isdigit():
+        raise ValueError("Mobile number must contain digits only")
+    if len(value) != 9:
+        raise ValueError("Mobile number must be 9 digits")
+    return value
+
+
+# ---------------------------
+# Create Schema
+# ---------------------------
 
 class PatientCreate(BaseModel):
     RegistrationDate: datetime.datetime
@@ -14,83 +44,63 @@ class PatientCreate(BaseModel):
     FirstVisit: datetime.datetime
     LastVisit: datetime.datetime
     NoOfVisit: int
-    MobileNumber: int
+    MobileNumber: str
 
+    # Name Validation
     @field_validator("FirstName", "MiddleName", "LastName")
     @classmethod
-    def name_must_not_be_default_or_empty(cls, v):
-        if not v.strip():
-            raise ValueError("Field must not be empty")
-        if v.strip().lower() in {"default", "string"}:
-            raise ValueError("Field contains a default placeholder value")
-        return v
+    def validate_names(cls, value: str):
+        return validate_placeholder(value)
 
+    # Mobile Validation
     @field_validator("MobileNumber")
     @classmethod
-    def mobile_validation(cls, v):
-        v_str = str(v)
-        if v_str.startswith("0"):
-            raise ValueError("Mobile number must not start with 0")
-        if not v_str.isdigit():
-            raise ValueError("Mobile number must contain digits only")
-        if len(v_str) != 9:
-            raise ValueError("Mobile number must be 9 digits")
-        return int(v_str)
+    def validate_mobile_number(cls, value: str):
+        return validate_mobile(value)
 
-  
+    # DOB Validation
     @field_validator("DateofBirth")
     @classmethod
-    def date_not_in_future(cls, v):
+    def validate_date_of_birth(cls, value: datetime.datetime):
         now = datetime.datetime.now()
-        if v.replace(tzinfo=None) > now:
+        if value.replace(tzinfo=None) > now:
             raise ValueError("Date of birth cannot be in the future")
-        return v
+        return value
 
-
-
+    # Nationality Validation
     @field_validator("NationalityID")
     @classmethod
-    def validate_nationality_id(cls, v):
-        if v.lower() == "string":
-            raise ValueError("NationalityID contains a default placeholder value.")
-        if len(v) > 3:
-            raise ValueError("NationalityID must be at most 3 characters.")
-        return v
+    def validate_nationality_id(cls, value: str):
+        value = validate_placeholder(value)
+        if any(char.isdigit() for char in value):
+            raise ValueError("NationalityID can not contain digits, only letters.")
+        if len(value) != 3:
+            raise ValueError("NationalityID must be 3 characters.")
+        return value
 
 
-from pydantic import BaseModel, field_validator
-from typing import Optional
 
 class PatientUpdate(BaseModel):
     FirstName: Optional[str] = None
     LastName: Optional[str] = None
-    MobileNumber: Optional[int] = None
+    MobileNumber: Optional[str] = None
 
     @field_validator("FirstName", "LastName")
     @classmethod
-    def name_validation(cls, v):
-        if v is None:
-            return v
-        v_str = v.strip().lower()
-        if v_str in {"default", "string", ""}:
-            # Treat this like it was never provided (i.e. skip updating)
+    def validate_update_names(cls, value: Optional[str]):
+        # Skip update if None, "string", or empty string
+        if value is None or value.strip().lower() in {"string", "default", ""}:
             return None
-        return v
+        return validate_placeholder(value)
 
     @field_validator("MobileNumber")
     @classmethod
-    def mobile_validation(cls, v):
-        if v is None or v == 0:
-            # Treat 0 as no update
+    def validate_update_mobile(cls, value: Optional[str]):
+        # Skip update if None, "string", or empty string
+        if value is None or value.strip().lower() in {"string", "default", ""}:
             return None
-        v_str = str(v)
-        if not v_str.isdigit():
-            raise ValueError("Mobile number must contain digits only")
-        if v_str.startswith("0"):
-            raise ValueError("Mobile number must not start with 0")
-        if len(v_str) != 9:
-            raise ValueError("Mobile number must be 9 digits")
-        return int(v_str)
+        return validate_mobile(value)
+
 
 
 class PatientRead(BaseModel):
@@ -105,7 +115,7 @@ class PatientRead(BaseModel):
     FirstVisit: datetime.datetime
     LastVisit: datetime.datetime
     NoOfVisit: int
-    MobileNumber: int
+    MobileNumber: str
     EmailAddress: Optional[str]
     IsPregnant: Optional[int]
     BloodGroup: Optional[int]

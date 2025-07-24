@@ -1,5 +1,5 @@
 from typing import Optional
-from sqlalchemy import Column, Date, DateTime, Double, ForeignKeyConstraint, Integer, PrimaryKeyConstraint, String, Table, Text, Time
+from sqlalchemy import Column, Date, DateTime, Double, ForeignKeyConstraint, Integer, PrimaryKeyConstraint, String, Table, Text, Time,Identity
 from app.database import Base
 from sqlalchemy.orm import Mapped, mapped_column
 import datetime
@@ -12,7 +12,7 @@ class HISPatient(Base):
         PrimaryKeyConstraint('PatientID', name='HIS_Patient_pkey'),
     )
 
-    PatientID: Mapped[int] = mapped_column(Integer, primary_key=True)
+    PatientID: Mapped[int] = mapped_column(Integer,Identity(start=1000000, increment=1),primary_key=True)
     RegistrationDate: Mapped[datetime.datetime] = mapped_column(DateTime)
     FirstName: Mapped[str] = mapped_column(String(150))
     MiddleName: Mapped[str] = mapped_column(String(150))
@@ -23,7 +23,7 @@ class HISPatient(Base):
     FirstVisit: Mapped[datetime.datetime] = mapped_column(DateTime)
     LastVisit: Mapped[datetime.datetime] = mapped_column(DateTime)
     NoOfVisit: Mapped[int] = mapped_column(Integer)
-    MobileNumber: Mapped[int] = mapped_column(Integer)
+    MobileNumber: Mapped[str] = mapped_column(String(10))
     EmailAddress: Mapped[Optional[str]] = mapped_column(String(150))
     IsPregnant: Mapped[Optional[int]] = mapped_column(Integer)
     BloodGroup: Mapped[Optional[int]] = mapped_column(Integer)

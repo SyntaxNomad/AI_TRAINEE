@@ -32,10 +32,15 @@ def update(patient_id: int, updates: schemas.PatientUpdate, db: Session = Depend
         raise HTTPException(status_code=404, detail="Cannot update: patient not found.")
     return updated
 
-#DELETE Method
+
 @router.delete("/{patient_id}", response_model=schemas.PatientRead)
-def delete(patient_id: int, db: Session = Depends(get_db)):
-    deleted = crud.delete_patient(db, patient_id)
-    if not deleted:
-        raise HTTPException(status_code=404, detail="Cannot delete: patient not found.")
-    return deleted
+def delete_patient_route(patient_id: int, db: Session = Depends(get_db)):
+    try:
+        deleted = crud.delete_patient(db, patient_id)
+        if not deleted:
+            raise HTTPException(status_code=404, detail="Cannot delete: patient not found.")
+        return deleted
+    except HTTPException:
+        raise 
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))

@@ -15,7 +15,7 @@ def create_sample_patient(db_session: Session):
         FirstVisit=datetime(2024, 1, 1),
         LastVisit=datetime(2024, 1, 1),
         NoOfVisit=1,
-        MobileNumber=111222333
+        MobileNumber='511222333'
     ))
 
 def test_create_patient(db_session: Session):
@@ -24,7 +24,7 @@ def test_create_patient(db_session: Session):
     assert patient.PatientID is not None
     assert patient.FirstName == "Reema"
     assert patient.LastName == "Example"
-    assert patient.MobileNumber == 111222333
+    assert patient.MobileNumber == '511222333'
     assert isinstance(patient.DateofBirth, datetime)
 
 def test_get_patient(db_session: Session):
@@ -39,12 +39,12 @@ def test_update_patient(db_session: Session):
     patient = create_sample_patient(db_session)
 
     updated = crud.update_patient(db_session, patient.PatientID, schemas.PatientUpdate(
-        FirstName="Updated", LastName="Person", MobileNumber=123456789
+        FirstName="Updated", LastName="Person", MobileNumber='523456789'
     ))
     assert updated is not None
     assert updated.FirstName == "Updated"
     assert updated.LastName == "Person"
-    assert updated.MobileNumber == 123456789
+    assert updated.MobileNumber == '523456789'
 
 def test_delete_patient(db_session: Session):
     patient = create_sample_patient(db_session)
