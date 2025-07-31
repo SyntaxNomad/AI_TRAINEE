@@ -6,7 +6,7 @@
 ## Module Progress
 **Module 1:** AI/ML Fundamentals ✅  
 **Module 2:** ML Algorithms ✅  
-**Module 3** Deep learning and Neural networks with example projects (in progress....)
+**Module 3** Deep learning and Neural networks ✅ 
 
 ## Weekly Progress
 
@@ -22,6 +22,10 @@
 - Neural Networks
 - MNIST dataset
 
+**Week 4**
+-Pytorch
+-CNNs in pytorch with CIFAR-10 Dataset
+
 
 
 ## Algorithms Completed
@@ -29,9 +33,9 @@
 2. Logistic Regression ✅  
 3. Decision Trees ✅
 4. Random Forest ✅
-5. Neural network for digit recognition
-6. 
-**Tech Stack:** Python, pandas, scikit-learn, numpy, tensorflow, matplotlib
+5. Neural network for digit recognition ✅
+6. Convolutional Neural Networks for image recognition ✅ 
+**Tech Stack:** Python, pandas, scikit-learn, numpy, matplotlib, pytorch
 
 ---
 *Updated frequently*
