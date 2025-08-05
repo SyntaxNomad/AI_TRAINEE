@@ -1,6 +1,6 @@
 streamlit
-numpy
 faiss-cpu
+numpy
 groq
 sentence-transformers
 scikit-learn
