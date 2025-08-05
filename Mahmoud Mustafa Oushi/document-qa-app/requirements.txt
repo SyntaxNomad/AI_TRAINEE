@@ -1,0 +1,11 @@
+streamlit
+numpy
+faiss-cpu
+groq
+sentence-transformers
+scikit-learn
+PyPDF2
+pandas
+ipywidgets
+python-dotenv
+
