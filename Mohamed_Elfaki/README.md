@@ -24,8 +24,10 @@
 
 **Week 4**
 -Pytorch
--CNNs in pytorch with CIFAR-10 Dataset
-
+-CNNs in Pytorch with CIFAR-10 Dataset
+**Week 5**
+-RNN from scratch
+-RNN with PyTorch
 
 
 ## Algorithms Completed
@@ -34,7 +36,9 @@
 3. Decision Trees ✅
 4. Random Forest ✅
 5. Neural network for digit recognition ✅
-6. Convolutional Neural Networks for image recognition ✅ 
+6. Convolutional Neural Networks for image recognition ✅
+7. Recurrent Neural Network for sentiment prediction
+   
 **Tech Stack:** Python, pandas, scikit-learn, numpy, matplotlib, pytorch
 
 ---
