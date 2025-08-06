@@ -25,6 +25,8 @@
 **Week 4**
 -Pytorch
 -CNNs in Pytorch with CIFAR-10 Dataset
+
+
 **Week 5**
 -RNN from scratch
 -RNN with PyTorch
