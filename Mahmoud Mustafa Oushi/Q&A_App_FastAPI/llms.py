@@ -2,8 +2,8 @@ import os
 import requests
 import json
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
-GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "PUT_KEY")
+GROQ_API_URL = "PUT_URL"
 
 def query(context: str, question: str):
     prompt = (
@@ -31,4 +31,5 @@ def query(context: str, question: str):
         return response.json()["choices"][0]["message"]["content"]
     else:
         return f"Error: {response.status_code}, {response.text}"
+
 
