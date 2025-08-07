@@ -1,32 +1,3 @@
-# from sqlalchemy import create_engine
-# from sqlalchemy.orm import declarative_base, sessionmaker
-# from sqlalchemy import Column, Integer, String
-# from pgvector.sqlalchemy import Vector
-# import os
-# from dotenv import load_dotenv
-# from sqlalchemy import text
-# load_dotenv()
-
-# DATABASE_URL = os.getenv("DATABASE_URL")
-# engine = create_engine(DATABASE_URL)
-
-# with engine.connect() as conn:
-#     conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
-
-
-# SessionLocal = sessionmaker(bind=engine)
-# Base = declarative_base()
-
-# class DocumentChunk(Base):
-#     __tablename__ = "document_chunks"
-
-#     id = Column(Integer, primary_key=True, index=True)
-#     filename = Column(String, index=True)
-#     text = Column(String)
-#     embedding = Column(Vector(384)) 
-
-# Base.metadata.create_all(bind=engine)
-
 import os
 import json
 import numpy as np
@@ -89,3 +60,4 @@ class VectorStoreSQLite:
         session.close()
         # Sort by similarity descending
         return sorted(results, key=lambda x: x[0], reverse=True)[:top_k]
+
